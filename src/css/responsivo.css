@@ -1,0 +1,58 @@
+@media (max-width: 1024px){
+    .cabecalho{
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 15px;
+    }
+    .cabecalho .menu li a{
+        padding: 15px;
+    }
+    .visão-geral .informacoes{
+        padding: 30px;
+    }
+    .visão-geral .informacoes img{
+        max-width: 100px; 
+    }
+    .visão-geral .informacoes .titulo{
+        font-size: 40px;
+    }
+    .comprar-agora- .cartao{
+        width: 70%;
+    }
+    .cabecalho .comprar-agora{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .comprar-agora-{
+        padding: 30px;
+    }
+    .comprar-agora- .cartao{
+        padding: 80px 20px;
+        width: 100%;
+    }
+    .comprar-agora- .informacoes h3{
+        font-size: 35px;
+    }
+    .comprar-agora- .informacoes .plataformas{
+        flex-direction: column;
+    }
+    .btn-plataforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+}
+@media (max-width: 507px){
+    .btn-comprar-agora{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    main::after{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+    .comprar-agora- .cartao .capa-do-jogo{
+        max-width: 80%;
+    }
+}
